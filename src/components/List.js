@@ -6,14 +6,11 @@ import ListItems from './ListItems';
     // code here
      <><ul id='list'>
       {listx.map((e)=>(
-        <li key={e} className='items'>{e}</li>
+        <ListItems  valuex={e} />
       )
 
       )}
      </ul>
-     
-    
-      <ListItems valuex={listx} />
       </>
     
     
